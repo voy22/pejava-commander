@@ -1,0 +1,51 @@
+name: Bug report / Ошибка
+description: Something does not work as expected / Что-то работает не так
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / Что произошло?
+      description: What you did, what you expected and what you got instead. / Что вы сделали, чего ожидали и что получилось.
+      placeholder: |
+        1. Open a .zip with Enter
+        2. Press F5 to copy a file out
+        3. …
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: PejavaCommander version / Версия
+      description: The version you downloaded, as in the file name (PejavaCommander-0.1.0-…). / Версия из имени скачанного файла.
+      placeholder: 0.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system / Система
+      options:
+        - macOS (Apple Silicon)
+        - macOS (Intel)
+        - Windows x64
+        - Windows ARM64
+        - Linux x64
+        - Linux ARM64
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: OS version and shell / Версия системы и shell
+      placeholder: macOS 26.0, zsh
+  - type: textarea
+    id: plugins
+    attributes:
+      label: Plugins you installed / Установленные плагины
+      description: Plugins not built into the app, if any (Plugin Manager, ⌘⇧X). / Сторонние плагины, если есть.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Screenshots, errors / Скриншоты, ошибки
+      description: Drag images here. Error text from notifications or DevTools (⌘⌥I / Ctrl+Shift+I). / Перетащите картинки сюда; текст ошибок из уведомлений или DevTools.

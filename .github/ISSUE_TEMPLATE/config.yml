@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Plugin documentation / Документация для плагинов
+    url: https://pejavacommander.com/docs/api/
+    about: How to write plugins / Как писать плагины
+  - name: Pricing and license / Цены и лицензия
+    url: https://pejavacommander.com/pricing/
+    about: Free for individuals and charities; organizations pay per installation
