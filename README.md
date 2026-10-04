@@ -1,24 +1,12 @@
-# PejavaCommander — issues
+# PejavaCommander
 
-Bug reports and feature requests for [PejavaCommander](https://pejavacommander.com), a two-panel file manager for macOS, Windows and Linux.
+Bug reports and feature requests for [PejavaCommander](https://pejava.com), a two-panel file manager for macOS, Windows and Linux.
 
-This repository holds only the issue tracker; the app is distributed as compiled builds from [pejavacommander.com](https://pejavacommander.com/download/).
+The app is distributed as compiled builds from [pejava.com](https://pejava.com/download/). This repository holds the public issue tracker.
 
 **[Report a bug or suggest a feature →](../../issues/new/choose)**
 
-Before opening an issue, search the [existing ones](../../issues?q=is%3Aissue) — maybe it is already there; add a 👍 instead of a new issue.
+Before opening an issue, search the [existing ones](../../issues?q=is%3Aissue). If yours is already there, add a 👍 instead of opening a new one.
 
-- Plugin documentation: https://pejavacommander.com/docs/api/
-- Pricing and license: https://pejavacommander.com/pricing/
-
----
-
-# PejavaCommander — обращения
-
-Сообщения об ошибках и предложения для [PejavaCommander](https://pejavacommander.com/ru/) — двухпанельного файлового менеджера для macOS, Windows и Linux.
-
-Здесь только трекер обращений; сама программа распространяется скомпилированными сборками с [pejavacommander.com](https://pejavacommander.com/ru/download/).
-
-**[Сообщить об ошибке или предложить идею →](../../issues/new/choose)** Писать можно по-русски.
-
-Перед тем как создать обращение, поищите среди [существующих](../../issues?q=is%3Aissue): если такое уже есть, поставьте 👍 вместо нового.
+- Plugin documentation: https://pejava.com/docs/api/
+- Pricing and license: https://pejava.com/pricing/
