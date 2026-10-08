@@ -1,0 +1,36 @@
+{
+  "id": "example.bookmarks",
+  "name": "Directory Bookmarks",
+  "version": "1.0.0",
+  "description": "A custom panel provider: saved directories, like mc's hotlist.",
+  "author": "PejavaCommander examples",
+  "renderer": "renderer.js",
+  "contributes": {
+    "commands": [
+      { "command": "bookmarks.add", "title": "Bookmark Current Directory", "category": "Bookmarks" },
+      { "command": "bookmarks.open", "title": "Show Bookmarks", "category": "Bookmarks" },
+      { "command": "bookmarks.remove", "title": "Remove Bookmark", "category": "Bookmarks", "keybarTitle": "Remove" }
+    ],
+    "keybindings": [
+      { "key": "ctrl+d", "command": "bookmarks.add", "when": "panelFocus && activePanelProvider == 'fs'" },
+      { "key": "alt+b", "command": "bookmarks.open", "when": "panelFocus" },
+      { "key": "f8", "command": "bookmarks.remove", "when": "panelFocus && activePanelProvider == 'bookmarks'" }
+    ],
+    "menubar": [
+      { "id": "bookmarks", "label": "Bookmarks", "order": 45 }
+    ],
+    "menus": [
+      { "menu": "bookmarks", "command": "bookmarks.add" },
+      { "menu": "bookmarks", "command": "bookmarks.open" }
+    ],
+    "panelModes": [
+      {
+        "id": "bookmarks.list",
+        "title": "Bookmarks",
+        "columns": 1,
+        "providers": ["bookmarks"],
+        "fields": [{ "field": "name" }, { "field": "bookmark.path", "width": "*" }]
+      }
+    ]
+  }
+}

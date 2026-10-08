@@ -1,0 +1,12 @@
+{
+  "id": "example.solarized-palette",
+  "name": "Solarized Dark Palette",
+  "version": "1.0.0",
+  "description": "A plugin with no code: it only contributes a color palette (the built-in Solarized palettes are fuller).",
+  "author": "PejavaCommander examples",
+  "contributes": {
+    "palettes": [
+      { "id": "example-solarized-dark", "label": "Solarized Dark (example)", "path": "solarized-dark.json" }
+    ]
+  }
+}

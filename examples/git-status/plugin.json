@@ -1,0 +1,58 @@
+{
+  "id": "example.git-status",
+  "name": "Git Status Column",
+  "version": "1.0.0",
+  "description": "Adds a \"Git\" field (M, A, ??, \u2026) and a \"Git\" listing mode. Runs git in the Node part.",
+  "author": "PejavaCommander examples",
+  "main": "main.js",
+  "renderer": "renderer.js",
+  "contributes": {
+    "colors": [
+      {
+        "id": "git.modified.foreground",
+        "default": "#ffff55",
+        "description": "Git: modified files"
+      },
+      {
+        "id": "git.untracked.foreground",
+        "default": "#ff8080",
+        "description": "Git: untracked files"
+      }
+    ],
+    "panelModes": [
+      {
+        "id": "git",
+        "title": "Git",
+        "columns": 1,
+        "providers": [
+          "fs"
+        ],
+        "fields": [
+          {
+            "field": "git"
+          },
+          {
+            "field": "name"
+          },
+          {
+            "field": "size"
+          },
+          {
+            "field": "mtime"
+          }
+        ]
+      }
+    ],
+    "keybindings": [
+      {
+        "key": "ctrl+alt+g",
+        "command": "panels.setMode",
+        "args": "git",
+        "when": "panelFocus && activePanelProvider == 'fs'"
+      }
+    ]
+  },
+  "styles": [
+    "styles.css"
+  ]
+}

@@ -1,0 +1,3 @@
+/* Contributed colors are CSS variables: "git.modified.foreground" -> --git-modified-foreground */
+.git-modified { color: var(--git-modified-foreground); }
+.git-untracked { color: var(--git-untracked-foreground); }

@@ -1,0 +1,19 @@
+{
+  "id": "example.hello-world",
+  "name": "Hello World",
+  "version": "1.0.0",
+  "description": "Smallest useful plugin: a command, a key, a menu item.",
+  "author": "PejavaCommander examples",
+  "renderer": "renderer.js",
+  "contributes": {
+    "commands": [
+      { "command": "hello.sayHello", "title": "Say Hello", "category": "Hello", "keybarTitle": "Hello" }
+    ],
+    "keybindings": [
+      { "key": "f2", "command": "hello.sayHello", "when": "panelFocus && activePanelProvider == 'fs'" }
+    ],
+    "menus": [
+      { "menu": "command", "command": "hello.sayHello", "group": "8" }
+    ]
+  }
+}
