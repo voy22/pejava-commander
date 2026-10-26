@@ -1,6 +1,6 @@
 # PejavaCommander
 
-[PejavaCommander](https://pejava.com) is a two-panel file manager for macOS, Windows and Linux where everything is a plugin. The app is distributed as compiled builds from [pejava.com](https://pejava.com/download/).
+[PejavaCommander](https://commander.pejava.com) is a two-panel file manager for macOS, Windows and Linux where everything is a plugin. The app is distributed as compiled builds from [commander.pejava.com](https://commander.pejava.com/download/).
 
 This repository holds the public issue tracker and everything you need to write plugins.
 
@@ -22,7 +22,7 @@ Run your plugin without installing it:
 
 Clone this repo and open it in your coding agent (Claude Code, Codex, Cursor, Copilot…). [`AGENTS.md`](AGENTS.md) tells it how plugins work, where the docs are, how to run and package a plugin and what to check before it's done. Then just ask, for example: *"Write a plugin that adds a column with each file's MD5 hash."*
 
-The docs and examples here are the same as on [pejava.com/docs](https://pejava.com/docs/api/) and follow each release.
+The docs and examples here are the same as on [commander.pejava.com/docs](https://commander.pejava.com/docs/api/) and follow each release.
 
 ## Report a bug or suggest a feature
 
@@ -32,4 +32,4 @@ Before opening one, search the [existing issues](../../issues?q=is%3Aissue). If 
 
 ## License
 
-The example plugins and the code samples in the docs may be copied, changed and used in your own plugins without restriction. PejavaCommander itself is free for individuals and charities; organizations pay per installation. See [pricing](https://pejava.com/pricing/) and the [license](https://pejava.com/license/).
+The example plugins and the code samples in the docs may be copied, changed and used in your own plugins without restriction. PejavaCommander itself is free for individuals and charities; organizations pay per installation. See [pricing](https://commander.pejava.com/pricing/) and the [license](https://commander.pejava.com/license/).

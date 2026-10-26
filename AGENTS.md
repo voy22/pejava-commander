@@ -1,6 +1,6 @@
 # Writing PejavaCommander plugins: guide for AI agents
 
-This repository is the public home of [PejavaCommander](https://pejava.com), a two-panel file manager for macOS, Windows and Linux where everything is a plugin. The app itself is closed source and installed from [pejava.com/download](https://pejava.com/download/). This repo has everything needed to write a plugin for it:
+This repository is the public home of [PejavaCommander](https://commander.pejava.com), a two-panel file manager for macOS, Windows and Linux where everything is a plugin. The app itself is closed source and installed from [commander.pejava.com/download](https://commander.pejava.com/download/). This repo has everything needed to write a plugin for it:
 
 | Path | What it is |
 |---|---|
@@ -54,6 +54,6 @@ Zip the plugin folder with `plugin.json` at the root of the archive (or in a sin
 
 ## Licensing
 
-The example plugins and the code samples in the docs may be copied, changed and used in your own plugins without restriction. Your plugins are yours. PejavaCommander itself is free for individuals and charities; see [pejava.com/license](https://pejava.com/license/).
+The example plugins and the code samples in the docs may be copied, changed and used in your own plugins without restriction. Your plugins are yours. PejavaCommander itself is free for individuals and charities; see [commander.pejava.com/license](https://commander.pejava.com/license/).
 
 Bugs and API wishes: [open an issue](../../issues/new/choose).

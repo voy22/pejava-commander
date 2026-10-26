@@ -1,4 +1,4 @@
-<!-- Published from the PejavaCommander sources (also at https://pejava.com/docs/). Do not edit here: changes are overwritten. -->
+<!-- Published from the PejavaCommander sources (also at https://commander.pejava.com/docs/). Do not edit here: changes are overwritten. -->
 
 # PejavaCommander Cookbook
 

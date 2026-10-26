@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: Plugin documentation
-    url: https://pejava.com/docs/api/
+    url: https://commander.pejava.com/docs/api/
     about: How to write plugins
   - name: Pricing and license
-    url: https://pejava.com/pricing/
+    url: https://commander.pejava.com/pricing/
     about: Free for individuals and charities; organizations pay per installation
